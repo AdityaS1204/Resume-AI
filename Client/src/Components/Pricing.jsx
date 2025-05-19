@@ -2,7 +2,7 @@ import { PricingCard } from "./PricingCard"
 const Pricing = () => {
 
 
-    const pricingPlans = [
+    const pricingDetail = [
         {
             plan: "Starter",
             price: "Free",
@@ -84,7 +84,7 @@ const Pricing = () => {
             </div>
             <div className="flex md:flex-row flex-col py-18">
                 {
-                    pricingPlans.map((plan, index) => (
+                    pricingDetail.map((plan, index) => (
                         <div className="flex w-full m-2" key={index}>
                             {(index == 1) ? <PricingCard pricingDetail={plan} buttonStyle={"bg-indigo-700 text-white"} priceStyle={'text-white'} borderStyle={"border border-indigo-800 "} /> : <PricingCard index={index} pricingDetail={plan} borderStyle={'border border-neutral-500'} buttonStyle={'bg-neutral-50 text-black'} />}
                         </div>
