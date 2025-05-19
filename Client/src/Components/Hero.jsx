@@ -27,7 +27,7 @@ bg-[size:4rem_4rem] h-[100vh] "/>
           </div>
         </div>
         <div className='relative md:py-20 py-7  w-full flex items-center'>          
-          <div className='top-1/12 left-[16%] w-3/4 h-3/4 inset-0 blur-[10rem] gradient absolute -z-10'></div>
+          <div className='top-1/12 left-[16%] md:w-3/4 md:h-3/4 inset-0 md:blur-[10rem] blur-[8rem] gradient absolute -z-10'></div>
           <div className='flex justify-center '>
           <img src={dashboard} alt="dashboard" className='md:w-9/12 w-11/12 z-10 rounded-3xl ring-0 ring-offset-neutral-400 ring-offset-1 backdrop-blur-3xl p-3'/>
           </div>
