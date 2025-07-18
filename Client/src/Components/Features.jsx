@@ -1,4 +1,4 @@
-import feature from '../assets/index'
+import { feature } from '../assets/index'
 import { featuresCards} from '../Constants/Index'
 import { FeatureCards } from "./index";
 
