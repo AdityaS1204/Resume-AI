@@ -33,7 +33,7 @@ setFileName("")
         <div className='border border-neutral-500 md:h-[530px] h-96 md:w-3xl w-82 rounded-4xl p-6'>
             <h4 className='md:text-2xl text-lg text-white text-shadow-2xs text-shadow-amber-100 leading-13'>Upload Your Resume</h4>
             <p className='text-neutral-500'>Make the file format meets the requirements.It must be .pdf or .doc</p>
-            <div {...getRootProps({ className: `dropzone md:h-80 md:w-[720px] h-34 w-72 border border-neutral-400 p-3 rounded-2xl mt-7 flex items-center justify-center ${isDragActive ? ('bg-neutral-900'):(' ')}` })}>
+            <div {...getRootProps({ className: `dropzone md:h-80 md:w-[720px] h-34 w-72 border-2 border-dotted border-neutral-400 p-3 rounded-2xl mt-7 flex items-center justify-center ${isDragActive ? ('bg-neutral-900'):(' ')}` })}>
                 <input {...getInputProps()} />
                 <p className='text-neutral-500'> {fileName ? (
 
