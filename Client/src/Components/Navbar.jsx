@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
 
     const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false)
@@ -18,15 +19,15 @@ const Navbar = () => {
             </div>
             <div className={`navItems md:flex items-center justify-around hover:text-neutral-400 hidden`}>
                 <ul className='flex items-center justify-around gap-8 text-white '>
+                    <li className=' hover:text-neutral-300'><NavLink to={'/'}>Home</NavLink></li>
                     <li className=' hover:text-neutral-300'><NavLink to={'/pricing'}>Pricing</NavLink></li>
-                    <li className=' hover:text-neutral-300'><NavLink to={'/about'}>About</NavLink></li>
                     <li className=' hover:text-neutral-300'><NavLink to={'/features'}>Features</NavLink></li>
                     <li className=' hover:text-neutral-300'><NavLink to={'/ats-score'}>ATS Score</NavLink></li>
                 </ul>
             </div>
             <div className={`md:flex gap-3 hidden `}>
-                <button className='hover:bg-neutral-800/90 hover:rounded-lg px-2 py-1.5 text-white'>Login</button>
-                <button className='bg-indigo-600 hover:bg-indigo-700 hover:rounded-lg px-2 py-1.5 text-white rounded-lg'>Get Started</button>
+                <Link to={'/login'}> <button className='hover:bg-neutral-800/90 hover:rounded-lg px-2 py-1.5 text-white'>Login</button></Link>
+                <Link to={'/signup'}> <button className='bg-indigo-600 hover:bg-indigo-700 hover:rounded-lg px-2 py-1.5 text-white rounded-lg'>Get Started</button></Link>               
             </div>
 
             {isMobileDrawerOpen && (
@@ -40,8 +41,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className={`flex gap-3 justify-center pt-4`}>
-                        <button className='hover:bg-neutral-800/90 hover:rounded-lg px-2 py-1.5 text-white'>Login</button>
-                        <button className='bg-indigo-600 hover:bg-indigo-700 hover:rounded-lg text-white rounded-lg'>Get Started</button>
+                       <Link to={'/login'}> <button className='hover:bg-neutral-800/90 hover:rounded-lg px-2 py-1.5 text-white'>Login</button></Link>
+                <Link to={'/signup'}> <button className='bg-indigo-600 hover:bg-indigo-700 hover:rounded-lg px-2 py-1.5 text-white rounded-lg'>Get Started</button></Link>
                     </div>
                 </div>
             )}
