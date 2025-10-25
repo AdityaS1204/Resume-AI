@@ -1,5 +1,5 @@
-import { feature } from '../assets/index'
-import { featuresCards} from '../Constants/Index'
+import { feature } from '../assets'
+import { featuresCards} from '../Constants/Index.js'
 import { FeatureCards } from "./index";
 
 const Features = () => {
@@ -11,12 +11,12 @@ const Features = () => {
             <div className=" md:w-8/12 w-9/12 flex flex-col items-center gap-6">
                 <div className="bg-[#0a0720] ring ring-blue-400 py-0 px-1 rounded-2xl ring-offset-2 ring-offset-blue-600 text-center flex justify-center w-24">Features</div>
                 {/* heading */}
-                <h3 className="text-white font-semibold md:text-4xl text-2xl text-center">Discover our powerful<br /> features</h3>
+                <h3 className="text-white font-semibold md:text-4xl text-2xl text-center">Built for Developers<br /> by Developers</h3>
                 {/* p sub heading */}
-                <p className="text-neutral-500 text-lg text-center">Turn your career vision into a standout resume — effortlessly.</p>
+                <p className="text-neutral-500 text-lg text-center">Everything you need to showcase your technical skills and land your next dev role.</p>
                 <img src={feature} alt="feature-image" className='md:size-96 size-80' />
             </div>
-            <FeatureCards featuresCards={featuresCards}/>
+            <FeatureCards featuresCards={featuresCards} style={'rounded-3xl hover:shadow-2xl shadow-indigo-600/20 bg-indigo-950/30'}/>
         </section>
     )
 }

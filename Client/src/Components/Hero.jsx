@@ -14,15 +14,15 @@ bg-[size:4rem_4rem] h-[100vh] "/>
 
           <button className="border border-neutral-500 shadow-2xl  py-1 px-0 text-white w-60 rounded-2xl backdrop-blur-2xl overflow-hidden flex justify-center items-center gap-2.5">
             <span className="absolute left-0 h-2 top-8 w-60 rounded-2xl bg-indigo-600 blur-lg"></span>
-            <Sparkles strokeWidth={'2px'} size={'20px'} />Introducing Resume AI <ChevronRight strokeWidth={'2px'} size={'20px'} />
+            <Sparkles strokeWidth={'2px'} size={'20px'} />For Developers Only <ChevronRight strokeWidth={'2px'} size={'20px'} />
           </button>
 
-          <h1 className='text-white leading-10 md:leading-20 md:text-6xl text-4xl font-semibold pt-8 text-center'>Your Dream Job Starts with the Right Resume - Built by AI </h1>
+          <h1 className='text-white leading-10 md:leading-20 md:text-6xl text-4xl font-semibold pt-8 text-center'>Land Your Next Dev Role with an ATS-Optimized Resume</h1>
           {/* <span className='absolute top-54 right-13 bg-indigo-600 h-16 w-76 -z-10'></span> */}
-          <p className='text-neutral-400 md:text-xl text-lg text-center py-7'>Let AI tailor your resume to the job you're applying for — optimized, professional, and ready to impress.</p>
+          <p className='text-neutral-400 md:text-xl text-lg text-center py-7'>Built specifically for developers and software engineers. Auto-import your GitHub projects, match tech stack keywords, and pass ATS filters with ease.</p>
 
           <div className='hidden lg:flex  gap-4 py-2 px-4 items-center rounded-full bg-neutral-400/70 border-t-2 border-neutral-300 mt-7'>
-            <p className=' text-white text-lg'>✨ Start building the resume that gets you hired!</p>
+            <p className=' text-white text-lg'>🚀 Build a developer resume that gets past ATS filters!</p>
             <button className='text-white bg-indigo-600 rounded-full px-2 py-1 border border-blue-400/90'><Link to={'/Signup'} className='flex justify-center items-center gap-2'>Get Started <ArrowRight size={'20px'} strokeWidth={'2px'} /></Link></button>
           </div>
         </div>
