@@ -1,10 +1,6 @@
 import {createBrowserRouter, Form} from 'react-router-dom';
 import App from '../App';
-import LandingPage from '../Pages/LandingPage.jsx'
-import ResumeBuild from '../Pages/ResumeBuild.jsx'
-import Features from '../Pages/Features.jsx';
-import About from '../Pages/About.jsx';
-import Pricing from '../Pages/Pricing.jsx';
+import {LandingPage,Builder,Login,Signup,Features,Pricing,Ats } from '../Pages/index.js'
 
 
 const AppRouter = createBrowserRouter([
@@ -18,7 +14,7 @@ const AppRouter = createBrowserRouter([
             },
             {
                 path:'/builder',
-                element:<ResumeBuild/>
+                element:<Builder/>
             },
             {
                 path:'/features',
@@ -29,12 +25,16 @@ const AppRouter = createBrowserRouter([
                 element:<Pricing/>
             },
             {
-                path:'/about',
-                element:<About/>
+                path:'/Signup',
+                element:<Signup/>
             },
             {
-                path:'/Signup',
-                element:<About/>
+                path:'/Login',
+                element:<Login/>
+            },
+            {
+                path:'/ats-score',
+                element:<Ats/>
             },
         ]
     }
