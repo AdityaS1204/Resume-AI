@@ -1,10 +1,11 @@
-import About from "./About";
-import ResumeBuild from "./ResumeBuild";
+import Builder from "./Builder";
 import Ats from "./Ats";
 import Features from "./Features";
 import Pricing from "./Pricing";
 import LandingPage from "./LandingPage";
+import Signup from "./Signup";
+import Login from "./Login";
 
 export {
-    LandingPage,About,Pricing,ResumeBuild,Features,Ats
+    LandingPage,Pricing,Builder,Features,Ats,Signup,Login
 }
