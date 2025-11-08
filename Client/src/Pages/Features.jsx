@@ -20,7 +20,7 @@ const Features = () => {
           </div>
         </div>
         <div className='flex justify-center items-center mt-8'>
-          <FeatureCards featuresCards={featuresCards} style={'rounded-3xl hover:shadow-2xl shadow-indigo-600/20'}/>
+          <FeatureCards featuresCards={featuresCards} style={'rounded-3xl hover:shadow-2xl bg-indigo-950/30 shadow-indigo-600/20'}/>
         </div>
         <div className="w-7/12 flex items-center flex-col">
           <h5 className="text-white font-semibold text-4xl text-center pt-5">Additional Benifits</h5>
