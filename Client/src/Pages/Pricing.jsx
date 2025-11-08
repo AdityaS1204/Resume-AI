@@ -94,21 +94,21 @@ const Pricing = () => {
             Every plan comes with these powerful features
           </p>
           <div className='grid md:grid-cols-3 grid-cols-1 gap-6 mt-6'>
-            <div className='bg-gradient-to-br from-neutral-900/80 to-neutral-800/50 border border-neutral-700/50 rounded-xl p-6 text-center hover:border-indigo-500/50 transition-all group'>
+            <div className='bg-indigo-950/30 border border-neutral-700/50 rounded-xl p-6 text-center hover:border-indigo-500/50 transition-all group'>
               <div className='w-14 h-14 mx-auto mb-4 bg-indigo-600/20 rounded-full flex items-center justify-center group-hover:bg-indigo-600/30 transition-all'>
                 <Sparkles className='text-indigo-400' size={28} />
               </div>
               <p className='text-white font-semibold mb-2'>AI-Powered Generation</p>
               <p className='text-neutral-400 text-sm'>Smart resume creation with job-specific optimization</p>
             </div>
-            <div className='bg-gradient-to-br from-neutral-900/80 to-neutral-800/50 border border-neutral-700/50 rounded-xl p-6 text-center hover:border-indigo-500/50 transition-all group'>
+            <div className='bg-indigo-950/30 border border-neutral-700/50 rounded-xl p-6 text-center hover:border-indigo-500/50 transition-all group'>
               <div className='w-14 h-14 mx-auto mb-4 bg-indigo-600/20 rounded-full flex items-center justify-center group-hover:bg-indigo-600/30 transition-all'>
                 <Zap className='text-indigo-400' size={28} />
               </div>
               <p className='text-white font-semibold mb-2'>Unlimited ATS Checks</p>
               <p className='text-neutral-400 text-sm'>Scan your resume as many times as you need</p>
             </div>
-            <div className='bg-gradient-to-br from-neutral-900/80 to-neutral-800/50 border border-neutral-700/50 rounded-xl p-6 text-center hover:border-indigo-500/50 transition-all group'>
+            <div className='bg-indigo-950/30 border border-neutral-700/50 rounded-xl p-6 text-center hover:border-indigo-500/50 transition-all group'>
               <div className='w-14 h-14 mx-auto mb-4 bg-indigo-600/20 rounded-full flex items-center justify-center group-hover:bg-indigo-600/30 transition-all'>
                 <ShieldCheck className='text-indigo-400' size={28} />
               </div>
